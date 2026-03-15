@@ -5,7 +5,7 @@ This repository contains documentation for an archaeological agent-based model d
 
 _Setup_
 
-![image alt]()
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png)
 
 _Go_
 
