@@ -5,7 +5,11 @@ This repository contains documentation for an archaeological agent-based model d
 
 _Setup_
 
+![image alt]()
+
 _Go_
+
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/go_flowchart.png)
 
 _Forage_
 
@@ -13,17 +17,25 @@ _Forage_
 
 _Gather_
 
-_Migrate-check_
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/gather_flowchart.png)
 
+_Migrate-check_
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/migrate-check_flowchart.png)
 _Split-population_
 
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/split-population_flowchart.png)
+
 _Migrate_
+
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/migrate_flowchart.png)
 
 _Camps-eat_
 
 _Foragers-eat_
 
 _Travel-home_
+
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/travel-home_flowchart.png)
 
 _Transfer-storage_
 
