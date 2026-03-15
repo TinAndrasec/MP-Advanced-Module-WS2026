@@ -8,3 +8,26 @@ _Setup_
 _Go_
 
 _Forage_
+
+_Gather_
+
+_Migrate-check_
+
+_Split-population_
+
+_Migrate_
+
+_Camps-eat_
+
+_Foragers-eat_
+
+_Travel-home_
+
+_Transfer-storage_
+
+_Increase-population-check_
+
+_Update-display_
+
+_Regrow-patches_
+
