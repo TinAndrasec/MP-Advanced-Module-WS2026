@@ -9,6 +9,8 @@ _Go_
 
 _Forage_
 
+![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/641403b6d481a18b19f4733a0beb12dc2917c1e9/img/forage_flowchart.png)
+
 _Gather_
 
 _Migrate-check_
