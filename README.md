@@ -23,6 +23,40 @@ This repository contains documentation for an archaeological agent-based model d
  | split-pop-energy-threshold| Integer               | 0 to 4000    | Stored energy required for splitting the population into two camps.                                     |
 
 
+   Breed    | Variable       | Type                  | Description                                                                                  |
+ |:---------|:---------------|:----------------------|:---------------------------------------------------------------------------------------------|
+ | patches  | penergy        | Floating point number | The amount of energy available for harvest on a patch.                                       |
+ | patches  | pempty         | Boolean               | Indicates whether energy can be harvested from a patch.                                      |
+ | camps    | my-foragers    | Agentset              | Agentset containing all foragers belonging to a camp.                                        |
+ | camps    | camp-energy    | Floating point number | Amount of energy stored in a camp.                                                           |
+ | camps    | migrate-now    | Boolean               | Indicates whether the migration process should begin.                                        |
+ | camps    | population     | Integer               | Population of a camp.                                                                        |
+ | foragers | my-home        | Agent                 | Camp to which an agent belongs.                                                              |
+ | foragers | encounter-list | List                  | Energy values harvested from the last 10 visited patches.                                    |
+ | foragers | encounter-rate | Floating point number | Average value of the elements in the encounter-list.                                         |
+ | foragers | forager-energy | Integer               | Energy stored by each forager.                                                               |
+ | foragers | return-home    | Boolean               | Indicates whether a forager starts returning to its camp (home), ending the foraging process. |
+ | foragers | migrate-now    | Boolean               | Indicates whether the camp to which a forager belongs will begin its migration process.      |
+
+ 
+
+  Procedures            | Observer     |
+ |-----------------------|--------------|
+ | setup                 | global       |
+ | go                    | global       |
+ | forage                | foragers     |
+ | gather                | foragers     |
+ | migrate-check         | camps        |
+ | split-population      | camps        |
+ | migrate               | camps        |
+ | camps-eat             | camps        |
+ | foragers-eat          | foragers     |
+ | Transfer-storage      | foragers     |
+ | increase-population-check | camps    |
+ | update-display        | patches      |
+ | regrow-patches        | patches      |
+
+
 ## Procedures
 
 ### _Setup_
