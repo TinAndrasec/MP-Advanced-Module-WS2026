@@ -49,7 +49,7 @@ The model was created in NetLogo development environment version 7.0.3. It requi
 
  The simulation landscape is represented by the NetLogo world, with maximum x coordinate of the patches being 50, and maximum y coordinate set at 40. The world wraps both horizontally and vertically. 
 
-  <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/293b6bded0fe7133f85a70b2e638aabb41ef3ff4/img/Screenshot_sim_run.png" alt="Alt Text" width="130%" height="130%">
+  <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/293b6bded0fe7133f85a70b2e638aabb41ef3ff4/img/Screenshot_sim_run.png" alt="Alt Text" width="80%" height="80%">
 
 
  
