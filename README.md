@@ -19,18 +19,18 @@ Finally, the observer again switches to the camps, and each camp stores their ne
 <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/go_flowchart.png" alt="Alt Text" width="50%" height="50%">
 
 ### _Forage_
-<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/641403b6d481a18b19f4733a0beb12dc2917c1e9/img/forage_flowchart.png" alt="Alt Text" width="50%" height="50%">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/641403b6d481a18b19f4733a0beb12dc2917c1e9/img/forage_flowchart.png" alt="Alt Text" width="65%" height="65%">
 
 ### _Gather_
-<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/gather_flowchart.png" alt="Alt Text" width="50%" height="50%">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/gather_flowchart.png" alt="Alt Text" width="65%" height="65%">
 
 ### _Migrate-check_
 
-<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/migrate-check_flowchart.png" alt="Alt Text" width="50%" height="50%">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/migrate-check_flowchart.png" alt="Alt Text" width="65%" height="65%">
 
 ### _Split-population_
 
-<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/split-population_flowchart.png" alt="Alt Text" width="50%" height="50%">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/split-population_flowchart.png" alt="Alt Text" width="60%" height="60%">
 
 ### _Migrate_
 
