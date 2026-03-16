@@ -28,7 +28,7 @@ The model was created in NetLogo development environment version 7.0.3. It requi
  | split-pop-pop-threshold   | Integer               | 0 to 100     | Population value at which, once reached, a camp will split into two camps.                              |
  | split-pop-energy-threshold| Integer               | 0 to 4000    | Stored energy required for splitting the population into two camps.                                     |
 
- <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/91075727c9f66e08176e5531fb6ac0d4fa28b61f/img/Screenshot_GUI.png" alt="Alt Text" width="100%" height="100%">
+ <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/91075727c9f66e08176e5531fb6ac0d4fa28b61f/img/Screenshot_GUI.png" alt="Alt Text" width="130%" height="130%">
 
  The model has three agent (or, using NetLogo terminology, “turtle”) breeds: patches, camps, foragers, each breed possessing the following variables:
 
@@ -49,7 +49,8 @@ The model was created in NetLogo development environment version 7.0.3. It requi
 
  The simulation landscape is represented by the NetLogo world, with maximum x coordinate of the patches being 50, and maximum y coordinate set at 40. The world wraps both horizontally and vertically. 
 
- 
+  <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/293b6bded0fe7133f85a70b2e638aabb41ef3ff4/img/Screenshot_sim_run.png" alt="Alt Text" width="130%" height="130%">
+
 
  
 
