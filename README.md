@@ -12,7 +12,7 @@ Then, for every 10 units of population, a camp hatches a forager. The foragers t
 
 Finally, the observer again switches to the camps, and each camp stores their newly created foragers in their my-foragers agentset variable. Then, the tick counter is reset. 
 
-<img src="[image-url](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png)" alt="Alt Text" width="778" height="1688">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png" alt="Alt Text" width="778" height="1688">
 
 
 ![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png =778x1688)
