@@ -1,9 +1,9 @@
 # MP-Advanced-Module-WS2026
 This repository contains documentation for an archaeological agent-based model developed for an exam in the course "Agent-based modelling for archaeologists" taken at the University of Cologne.
 
-**Procedures**
+## Procedures
 
-_Setup_
+### Setup
 
 ![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png)
 
