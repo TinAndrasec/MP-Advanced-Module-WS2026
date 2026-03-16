@@ -1,6 +1,28 @@
 # MP-Advanced-Module-WS2026
 This repository contains documentation for an archaeological agent-based model developed for an exam in the course "Agent-based modelling for archaeologists" taken at the University of Cologne.
 
+## State variables and scales
+  Parameter                 | Type                  | Value Range  | Description                                                                                             |
+ |---------------------------|-----------------------|--------------|---------------------------------------------------------------------------------------------------------|
+ | camp-number               | Integer               | 1 to 10      | Number of camps at the start of the simulation run.                                                     |
+ | starting-population       | Integer               | 10 to 100    | Population of starting camps.                                                                           |
+ | init-camp-energy          | Integer               | 0 to 2000    | Amount of energy stored by each starting camp.                                                          |
+ | max-penergy               | Integer               | 0 to 100     | Maximum value of the penergy variable of a patch.                                                       |
+ | init-forager-energy       | Integer               | 0 to 100     | Amount of energy stored by each starting forager.                                                       |
+ | resource-density          | Integer               | 0 to 100     | Density of energy in the environment. The chance that in a simulation run a patch will contain energy.  |
+ | gather-rate               | Integer               | 0 to 100     | Amount of energy which a forager will harvest in a tick from a patch where it is located.               |
+ | growth-rate               | Floating point number | 0 to 0.25    | Amount by which the energy in harvested patches recovers each tick.                                     |
+ | pop-growth-chance         | Floating point number | 0 to 0.1     | Chance per tick that, given there is enough energy, the population of a camp will grow.                 |
+ | forage-step               | Integer               | 1 to 5       | Distance which a forager covers each tick.                                                              |
+ | forager-movement-cost     | Integer               | 1 to 10      | Amount of energy consumed by a forager when traversing a length of an unit of distance while foraging.  |
+ | camp-movement-cost        | Integer               | 1 to 100     | The amount of energy consumed by a camp when traversing a length of an unit of distance while migrating.|
+ | return-home-threshold     | Integer               | 1 to 100     | After harvesting this amount of energy from the environment, the forager returns back to its camp.      |
+ | migration-step            | Integer               | 1 to 50      | Distance a camp covers during a single migration event.                                                 |
+ | pop-energy-consumption    | Integer               | 1 to 10      | Amount of energy a unit of population consumes each tick.                                               |
+ | split-pop-pop-threshold   | Integer               | 0 to 100     | Population value at which, once reached, a camp will split into two camps.                              |
+ | split-pop-energy-threshold| Integer               | 0 to 4000    | Stored energy required for splitting the population into two camps.                                     |
+
+
 ## Procedures
 
 ### _Setup_
