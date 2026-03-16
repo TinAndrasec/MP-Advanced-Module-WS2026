@@ -1,7 +1,13 @@
 # MP-Advanced-Module-WS2026
 This repository contains documentation for an archaeological agent-based model developed for an exam in the course "Agent-based modelling for archaeologists" taken at the University of Cologne.
 
-## State variables and scales
+## Purpose
+The purpose of this model is to simulate the behaviour of Palaeolithic hunter-gatherer communities. The model creates a randomly generated landscape, with energy being randomly distributed across the landscape. Hunter-gatherer communities are represented by agents of breed “camps”. Each camp creates foraging parties, represented by the breed “forager”, which harvests energy from the environment and brings it to the camp. After the energy in the vicinity of the camp has been depleted, the camps relocate to another part of the landscape. As time progresses, camps and forager parties consume the gathered energy. In the case that all the energy reserves of a camp are exhausted, the camp perishes. If the camps are successful in harvesting energy, the population grows, and eventually the camps split, creating new communities. The model thus enables comparison of different foraging strategies.
+
+## Parameters and variables
+
+The model was created in NetLogo development environment version 7.0.3. It requires the following input parameters: 
+
   Parameter                 | Type                  | Value Range  | Description                                                                                             |
  |---------------------------|-----------------------|--------------|---------------------------------------------------------------------------------------------------------|
  | camp-number               | Integer               | 1 to 10      | Number of camps at the start of the simulation run.                                                     |
@@ -22,6 +28,7 @@ This repository contains documentation for an archaeological agent-based model d
  | split-pop-pop-threshold   | Integer               | 0 to 100     | Population value at which, once reached, a camp will split into two camps.                              |
  | split-pop-energy-threshold| Integer               | 0 to 4000    | Stored energy required for splitting the population into two camps.                                     |
 
+ The model has three agent (or, using NetLogo terminology, “turtle”) breeds: patches, camps, foragers, each breed possessing the following variables:
 
    Breed    | Variable       | Type                  | Description                                                                                  |
  |:---------|:---------------|:----------------------|:---------------------------------------------------------------------------------------------|
@@ -38,7 +45,16 @@ This repository contains documentation for an archaeological agent-based model d
  | foragers | return-home    | Boolean               | Indicates whether a forager starts returning to its camp (home), ending the foraging process. |
  | foragers | migrate-now    | Boolean               | Indicates whether the camp to which a forager belongs will begin its migration process.      |
 
+ The simulation landscape is represented by the NetLogo world, with maximum x coordinate of the patches being 50, and maximum y coordinate set at 40. The world wraps both horizontally and vertically. 
+
  
+
+ 
+
+
+## Procedures
+
+The model contains the following procedures:
 
   Procedures            | Observer     |
  |-----------------------|--------------|
@@ -56,9 +72,7 @@ This repository contains documentation for an archaeological agent-based model d
  | update-display        | patches      |
  | regrow-patches        | patches      |
 
-
-## Procedures
-
+ 
 ### _Setup_
 
 Before the start of a simulation run, the “setup” procedure (figure 1) has to be run. To start with, all variables are cleared using the “clear-all” procedure. Next, the generation of the simulation landscape begins. Patches are set as the observer, and each patch runs an if-else statement in which the value of a randomly generated number is compared to the previously defined “resource-density” parameter. If the randomly generated number is lower than the “resource-density”, energy is allocated to a patch: its “penergy” variable is set to the value of “max-penergy” parameter. Furthermore, “pempty” is set to “false”. This variable will later be used to evaluate whether the energy at the patch should be replenished. If that is not the case, “penergy” is set to 0, and “pempty” is set to “true”. Afterwards, colour of the patch is set in such a way to reflect the amount of energy available on the patch. 
