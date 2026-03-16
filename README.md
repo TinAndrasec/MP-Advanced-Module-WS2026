@@ -15,11 +15,8 @@ Finally, the observer again switches to the camps, and each camp stores their ne
 <img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png" alt="Alt Text" width="50%" height="50%">
 
 
-![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/49c447afa66fb33ce0dd4dfe64f7f6e188d73b23/img/setup_flowchart.png =778x1688)
-
 ### _Go_
-
-![image alt](https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/go_flowchart.png)
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/go_flowchart.png" alt="Alt Text" width="50%" height="50%">
 
 ### _Forage_
 
