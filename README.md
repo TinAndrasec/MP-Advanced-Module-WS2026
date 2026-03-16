@@ -35,7 +35,7 @@ Finally, the observer again switches to the camps, and each camp stores their ne
 ### _Migrate_
 
 
-<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/migrate_flowchart.png" alt="Alt Text" width="50%" height="50%">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/migrate_flowchart.png" alt="Alt Text" width="70%" height="70%">
 
 
 ### _Camps-eat_
@@ -44,7 +44,7 @@ Finally, the observer again switches to the camps, and each camp stores their ne
 
 ### _Travel-home_
 
-<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/travel-home_flowchart.png" alt="Alt Text" width="50%" height="50%">
+<img src="https://github.com/TinAndrasec/MP-Advanced-Module-WS2026/blob/521faf935bd5041a089da672c9f2d3d5520922ff/img/travel-home_flowchart.png" alt="Alt Text" width="70%" height="70%">
 
 ### _Transfer-storage_
 
