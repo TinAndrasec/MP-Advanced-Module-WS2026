@@ -32,6 +32,9 @@ It was then decided that two migration-step values from the previous experiment 
 ## Discussion
 
 The results of experiment 1 showed that migration-step parameter influences the success rate of the foraging strategy. Out of the five values with which the experiment was run, the lowest one (10) rendered the least successful foraging strategy. The foragers were most successful when the forage-step parameter was set to 20. However, parameter values higher than that (25, 30) showed less success.
+
 Experiment 2 showed that forage-step also influences success of foragers. With the increase in the value of forage-step, the success rate of the foraging strategy decreases. 
+
 The premise of this paper was to observe  difference between foraging behaviour with a higher value of migration-step and forage-step (SB) and a foraging behaviour with lower value of those two parameters (HP). However, this is not possible from the work done so far. As can be observed from experiment 2, the increase in forage-step leads to sudden decrease in the success of a foraging strategy, regardless of the value of migration-step. This is at least the case for the given parameter values. 
+
 On the other hand, experiment 1 showed that, given that the environment stays the same, change in migration-step influences the success of the foraging strategy. However, it is questionable whether this result sheds any light to the initial archaeological question. The increase in forager success rates with the increase of migration-step in experiment 1 seems to be easily explained: a if the migration-step is too short, the camp is not able to escape the area with depleted resources. The success rate then falls for migration-step values higher than 20 because foragers start expending too much energy on migration than is necessary to escape from the areas where they depleted the resources. 
